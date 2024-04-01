@@ -1,16 +1,17 @@
-// 다양한 타입 : Union type 유니언 타입
-var 이름 = "kim";
-// 함수도 타입지정
-// 파라미터에 타입지정 원하면 함수(x: number)
-// 리턴값에 타입지정 원하면 함수(x: number):number 지정
-function 함수(x) {
-    return x * 2;
-}
-var john = [123, true];
-var john2 = { name: "kim" };
-var User = /** @class */ (function () {
-    function User(name) {
-        this.name = name;
-    }
-    return User;
-}());
+var 회원들 = {
+    member1: "kim",
+    member2: "park",
+};
+var 회원들1 = "park";
+var 회원들2 = [1, 2, 3];
+// 예제문제
+var userName = "이조은";
+var userAge = 30;
+var userAdd = "경기도 남양주시 진건오남로 735-17 101동 904호";
+var singer = { song: "blue", name: "bigbang" };
+// 타입지정
+var project = {
+    member: ["kim", "park"],
+    days: 30,
+    started: true,
+};

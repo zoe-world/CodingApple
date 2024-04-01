@@ -1,17 +1,12 @@
-var 회원들 = {
-    member1: "kim",
-    member2: "park",
-};
-var 회원들1 = "park";
-var 회원들2 = [1, 2, 3];
-// 예제문제
-var userName = "이조은";
-var userAge = 30;
-var userAdd = "경기도 남양주시 진건오남로 735-17 101동 904호";
-var singer = { song: "blue", name: "bigbang" };
-// 타입지정
-var project = {
-    member: ["kim", "park"],
-    days: 30,
-    started: true,
-};
+// Union type 타입 2개 이상 합친 새로운 타입
+var 회원 = "kim";
+회원 = 123;
+var 회원들 = [1, "2", 3];
+var 오브젝트 = { a: "123" };
+var 이름;
+이름 = 123;
+이름 = [];
+var 나이;
+나이 = 30;
+나이 = {};
+var 변수1;
