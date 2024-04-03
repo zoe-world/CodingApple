@@ -29,9 +29,22 @@ class Word {
     });
     this.num = 숫자들;
     this.str = 문자들;
-  
+  }
 }
 
 let obj = new Word("kim", 3, 5, "park");
 console.log(obj.num);
 console.log(obj.str);
+
+class Monster {
+  name;
+  skill;
+  constructor(name: string, skill: number) {
+    this.name = name;
+    this.skill = skill;
+  }
+}
+
+let 롤 = new Monster("누누", 20);
+
+console.log(롤);

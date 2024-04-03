@@ -36,3 +36,12 @@ var Word = /** @class */ (function () {
 var obj = new Word("kim", 3, 5, "park");
 console.log(obj.num);
 console.log(obj.str);
+var Monster = /** @class */ (function () {
+    function Monster(name, skill) {
+        this.name = name;
+        this.skill = skill;
+    }
+    return Monster;
+}());
+var 롤 = new Monster("누누", 20);
+console.log(롤);
